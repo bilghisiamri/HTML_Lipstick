@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lipstick Hanasui Payment</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <center><h1>Lipstick Hanasui Payment</h1></center>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shades.html">Shades</a></li>
+                <li><a href="transaction.html">Transaction</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <center><h2>Payment Information</h2></center>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="shade">Shade:</label><br>
+            <select id="shade" name="shade">
+                <option value="shade1">Shade 1</option>
+                <option value="shade2">Shade 2</option>
+                <option value="shade3">Shade 3</option>
+                <option value="shade4">Shade 4</option>
+            </select><br>
+            <label for="quantity">Quantity:</label><br>
+            <input type="number" id="quantity" name="quantity" min="1" max="10"><br>
+            <input type="submit" value="Pay Now">
+        </form>
+    </main>
+    <footer>
+        <p>Copyright © Lipstick Hanasui</p>
+    </footer>
+</body>
+</html>

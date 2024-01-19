@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #ee00b6;
+    padding: 20px;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #ee00b6;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #ee00b6;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* Shade styling */
+.shade {
+    display: inline-block;
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.20);
+}
+
+.shade img {
+    width: 100%;
+    height: auto;
+}
+
+.shade h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.shade p {
+    text-align: justify;
+}
+
+/* Payment form styling */
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"], form input[type="email"], form select, form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.20);
+}
+
+form input[type="submit"] {
+    background-color: #ee00b6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+form input[type="submit"]:hover {
+    background-color: #ee00b6;
+}
+
